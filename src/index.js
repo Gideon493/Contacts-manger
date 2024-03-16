@@ -1,13 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import AddContacts from "./components/AddContact";
+import ContactCard from "./components/ContactCard";
+import Contacts from "./components/Contacts";
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
+export {
+    AddContacts,
+    ContactCard,
+    Contacts
+}

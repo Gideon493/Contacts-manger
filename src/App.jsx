@@ -1,6 +1,5 @@
-import AddContacts from './components/AddContacts';
 import { useState } from 'react';
-import Contacts from './components/Contacts';
+import { Contacts, AddContacts } from './index';
 
 const App = () => {
   //const local_storage = "contacts"
